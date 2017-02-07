@@ -14,6 +14,7 @@ Field that values can choose from dictionary (selectwindow)
 
 // 'model' config need write if 'store' undefined<br>
 @example<br>
+<b>
 {<br>
     &emsp;xtype: 'apptagselectfield',<br>
     &emsp;listView: 'App.view.Author.Grid',<br>
@@ -21,6 +22,6 @@ Field that values can choose from dictionary (selectwindow)
     &emsp;name: 'Author',<br>
     &emsp;store: 'App.store.Author',<br>
     &emsp;model: 'App.model.Author'<br>
-} <br>
+} <br></b>
 
 
