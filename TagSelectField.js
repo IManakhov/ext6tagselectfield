@@ -590,17 +590,5 @@ Ext.define('App.ux.form.TagSelectField', {
             }
         }
         return queryPlan;
-    },
-
-    remove_duplicates: function(arr) {
-        var obj = {};
-        var ret_arr = [];
-        for (var i = 0; i < arr.length; i++) {
-            obj[arr[i].Id] = arr[i];
-        }
-        for (var key in obj) {
-            ret_arr.push(obj[key]);
-        }
-        return ret_arr;
     }
 });
