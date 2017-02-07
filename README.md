@@ -6,6 +6,10 @@ tagselectfield component for ExtJs 6
 
 Field that values can choose from dictionary (selectwindow)
 
+<b>Features:</b>
+* getValue - return integer array[] (id's of added records)
+* setValue - expects that the argument will be integer array[]
+
 # Example usage:
 
 // 'model' config need write if 'store' undefined<br>
